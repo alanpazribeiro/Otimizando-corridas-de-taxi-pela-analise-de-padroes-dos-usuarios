@@ -1,24 +1,24 @@
 # Otimizando rotas de táxi através dos padrões dos usuários
 Projeto 5 - Encontrando Padrões de utilização dos Usuários de Táxi para Otimizar Corridas
 
-###  Passo 1. Verificando dados no em um site - Python
+####  Passo 1. Verificando dados no em um site - Python
 
  Análise dos dados sobre o clima em Chicago em novembro de 2017.
  
-###  Passo 2. Análise exploratória de dados - SQL
+####  Passo 2. Análise exploratória de dados - SQL
 
  - Verificar o número de corridas de táxi para cada empresa entre 15 e 16 de novembro de 2017
  - Verificar o número de corridas cujos nomes das companhias contenham as palavras YELLOW e BLUE
  - Verificando as corridas das companhias mais populares
  
-###  Passo 3. Análise exploratória de dados - SQL
+####  Passo 3. Análise exploratória de dados - SQL
 
  - Verificando os indentificadores dos bairros O'Hare e Loop
  - Verificando as condições meteorológicas e alterando pra BAD (chuva/tempestade) e GOOD(outros)
  - Verificando as corridas que começam no Loop e terminam em O'Hare aos sábados, bem como as condições meteorológicas
 
 
-###  Passo 4. Análise exploratória de dados - Python
+####  Passo 4. Análise exploratória de dados - Python
 
   Além dos dados recuperados nas tarefas anteriores, dois CSVs:
 
@@ -41,7 +41,7 @@ Para esses dois conjuntos de dados:
 - tirar conclusões com base em cada gráfico e explicar os resultados
 
 
-### Passo 5. Testando hipóteses - Python
+#### Passo 5. Testando hipóteses - Python
 
 Para esse passo, será utilizado o arquivo que contém dados sobre viagens do Loop para o Aeroporto Internacional O'Hare:
 
@@ -58,3 +58,14 @@ Explique:
    - como você formou as hipóteses nula e alternativa
    - qual critério você usou para testar a hipótese e porque
    - Alpha: a critério
+
+# Execução do Projeto
+- Passo 1. Carregamento os dados e prepare-os para a análise
+  - Verificado tipo de dado
+  - Nulos/faltantes
+  - organizar/renomear colunas
+  - colunas tipo datetime
+  - amplitude das variáveis
+  - tipos de dados categóricos
+  - valores duplicados
+  - espaços e caracteres especiais nos dados
